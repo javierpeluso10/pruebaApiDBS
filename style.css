@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CAMPO DE BUSQUEDA */
+
+.contenedorSearchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px ;
+}
+#campoDeBusqueda{
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+}
+
+/* CARDS PERSONAJES */
+.imgProducto{
+    height: 300px;
+    width: 200px;
+    margin: auto
+}
+
+.contenedorProductosHide{
+    display: none;
+}
+
+.contenedorProductosShow{
+    padding: 50px;
+    background-color: gray;
+    margin: 10px;
+}
+
+#contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productoNombre{
+    margin-top: 10px
+}
